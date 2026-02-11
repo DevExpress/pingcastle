@@ -4,6 +4,14 @@ Custom changes by DevExpress
 
 - custom rules enabled
 
+## How to release
+
+1. Publish **self-contained**, **single-file** apps - both PingCastle and PingCastleAutoUpdater.
+1. Pack EXEs and appsettings.console.json into zip archive with name PingCastle-{version}.zip (ex. PingCastle-3.0.5.33.zip)
+1. Create release with app version tag and name (ex. 3.0.5.33). Upload created zip archive.
+
+in this case app will be updated automatically.
+
 ## License
 
 PingCastle is available under two licensing options:
