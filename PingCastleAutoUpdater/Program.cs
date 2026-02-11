@@ -42,7 +42,7 @@ namespace PingCastleAutoUpdater
 		bool preview = false;
 		bool dryRun = false;
 		int numberOfDaysToWait = 0;
-		string releaseInfoUrl = "https://api.github.com/repos/netwrix/pingcastle/releases";
+		string releaseInfoUrl = "https://api.github.com/repos/DevExpress/pingcastle/releases";
 
         private async Task RunAsync(string[] args)
 		{
