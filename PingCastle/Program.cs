@@ -373,8 +373,6 @@ namespace PingCastle
         {
             if (string.Equals(tasks.License.Edition, "Auditor", StringComparison.OrdinalIgnoreCase))
                 return;
-            if (tasks.License.IsBasic())
-                return;
             PingCastle.Rules.RuleSet<HealthcheckData>.LoadCustomRules();
         }
 
