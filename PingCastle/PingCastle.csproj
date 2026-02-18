@@ -185,6 +185,10 @@
     <Folder Include="Rules\" />
   </ItemGroup>
   <ItemGroup>
+    <None Update="appsettings.override.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
     <None Update="appsettings.console.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>

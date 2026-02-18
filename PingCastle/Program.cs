@@ -130,7 +130,8 @@ namespace PingCastle
         {
             var configBuilder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.console.json", optional: true, reloadOnChange: false);
+                .AddJsonFile("appsettings.console.json", optional: true, reloadOnChange: false)
+                .AddJsonFile("appsettings.override.json", optional: true, reloadOnChange: false);
 
             var configuration = configBuilder.Build();
 
